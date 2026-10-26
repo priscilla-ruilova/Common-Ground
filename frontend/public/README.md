@@ -1,30 +1,34 @@
 # Common Ground
 
 ### Intro:
-This full stack app in-the-works is built  the urban growers and land stewards of Philadelphia who have long been maintaining vacant lots in the city/
+This full stack app in-the-works is built with urban growers and land stewards of Philadelphia in mind. Philadelphia has a long history of community-managed land, a practice of stewarding vacant and underutilized land in the city.
 
-The fun thing about collaging is that randomness is encouraged! Poetry is an accessible art form often put on a pedestal but with Poetry Collage, I invite you to play. 
+For decades, information streams between urban farmers, gardeners, and advocates has been strained. By and large, older populations and non-English-speaking populations get left behind. 
 
-- Write a line of poetry of your own creation. 
-- Write a quote from someone who makes you laugh.
-- Write your favorite song lyric.
-- Enjoy this with friends, loved ones, and strangers and anonomize yourselves if you prefer!
-- Don't forget to hit the shuffle button and watch your lines of poetry form into completely new tethers.
+Common Ground is breaking this cycle, by providing a trusted community communication system and rescource map that address the biggest obstacle for urban farmers: land security. 
+
+## Features
+- This app will include authentication and login for secure accesss to the communication system and to share a resource. Creating a login is not necessary for viewing the resource maps.
+- Resource Map exists as a compilation of shared resources from users.
+- Tax Foreclosure map uses a Philadelphia tax foreclosure API to monitor if there are any flagges parcels of land that users may be worried about,
+    - The information will be generalized limited to the number of affected vacant lots in their respective district. 
+- Last this app will offer a ciitzen science tracker so that advice, experiements, and wisdom from diverse communities can be collected and offered back to the user community .
+
 
 ### Features:
-- Use a form to submit your line of poetry. Add as many as you like!
-- If you'd like to remain anonymous, click the 'edit name' button or leave the name input blank.
-- Read what others have to say.
-- Update the lines of poetry by hitting the shuffle button!
-- Delete lines of poetry that no longer serve you.
+- Create a login with a community 'check' so that this app can safely invite other users. 
+- Use a form to submit resources. Add as many as you like!
+- Read the advice and wisdom that others share. 
+- Update a resource submission or your citizen science post.
+- Delete anything you created. 
 
-![screenshot of login page](/public/emptyScreenshot.png)
-![screenshot of profile page](/public/namedScreenshot.png)
-![screenshot of anonymously named users](/public/anonScreenshot.png)
+![screenshot of login page]
+![screenshot of profile page]
+![screenshot of anonymously named users]
 
-### Tech Used: 
+### Tech Using: 
 - Front-end: HTML, CSS, JavaScript 
-- Backend: Node.js, Express, EJS
+- Backend: Node.js, Express, EJS, passport
 - Database: MongoDB
 
 ### How to run project: 
