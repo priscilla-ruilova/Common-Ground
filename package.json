@@ -1,0 +1,26 @@
+{
+  "name": "onyourblock-1",
+  "version": "1.0.0",
+  "description": "citizen-led urban preservation initiative",
+  "homepage": "https://github.com/priscilla-ruilova/Common-Ground#readme",
+  "bugs": {
+    "url": "https://github.com/priscilla-ruilova/Common-Ground/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilla-ruilova/Common-Ground.git"
+  },
+  "license": "ISC",
+  "author": "Priscilla Ruilova",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "mongodb": "^7.7.0"
+  }
+}
