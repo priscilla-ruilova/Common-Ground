@@ -32,4 +32,5 @@ Common Ground is breaking this cycle, by providing a trusted community communica
 - Database: MongoDB
 
 ### How to run project: 
-- Diployed site: https://poetry-collage.onrender.com/ 
+- Diployed site coming soon.
+- This is a work in progress!
