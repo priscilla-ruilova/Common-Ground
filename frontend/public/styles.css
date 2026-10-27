@@ -1,9 +1,9 @@
-
+ 
 .navbar {
   background: #257244;
   padding: 0 1.5rem;
 }
-
+/*
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -25,9 +25,54 @@
 .nav-links a:focus {
   color: #8fd694;
   border-bottom: 1px solid #8fd694;
-}
+} */
 img{
     max-width: 400px;
     max-height: 500px;
     text-align: center;
+}
+header{
+    background: rgb(35,66,89);
+    color:white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+} 
+header h2{
+    font-family: "Lilita One", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+    margin-top: 10px;
+}
+ul a{
+    color:white; 
+}
+header span{
+    color: rgb(227, 88, 46);
+}
+li{
+    display: inline; 
+    padding: 8px;
+    text-align:right;
+    font-weight: bold;
+    font-size: 12px;
+} 
+.navTop{
+    display:none;
+}
+li a{
+    text-decoration: none;
+    height: 40px;
+    color:white;
 }
