@@ -17,7 +17,7 @@ Common Ground is breaking this cycle, by providing a community-trusted communica
 - This app will offer a ciitzen science forum so that advice, growing techniques, and wisdom from diverse communities can be collected and offered back to the user community.
 
 
-### Features:
+### How to Use:
 - Create a login with a community 'check' so that this app can safely invite other users. 
 - View the Resource Map to see what districts other users are located and available resources.
 - View the tax foreclosure map to monitor if land that you're stewarding is potentially at risk. 
@@ -29,7 +29,7 @@ Common Ground is breaking this cycle, by providing a community-trusted communica
 ![screenshot of profile page]
 ![screenshot of anonymously named users]
 
-### Tech Using: 
+### Tech Stack: 
 - Front-end: HTML, CSS, JavaScript 
 - Backend: Node.js, Express, EJS, passport
 - Database: MongoDB
